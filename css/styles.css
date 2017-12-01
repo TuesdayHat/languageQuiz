@@ -10,3 +10,7 @@ body {
 .col-md-6 {
   background-color: white;
 }
+
+select {
+  margin-bottom: 30px;
+}

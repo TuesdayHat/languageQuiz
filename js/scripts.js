@@ -1,11 +1,11 @@
 $(document).ready(function(){
   $("input.lang").submit(function(event){
     event.preventDefault();
-    var a += parseInt("input.ansA").val();
-    var b += parseInt("input.ansB").val();
-    var c += parseInt("input.ansC").val();
-    var d += parseInt("input.ansD").val();
-    var e += parseInt("input.ansE").val();
+    var a = parseInt("input.ansA").val();
+    var b = parseInt("input.ansB").val();
+    var c = parseInt("input.ansC").val();
+    var d = parseInt("input.ansD").val();
+    var e = parseInt("input.ansE").val();
     var result = maxAnswer(a,b,c,d,e);
 
     if(maxAnswer){
