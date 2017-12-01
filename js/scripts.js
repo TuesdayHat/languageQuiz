@@ -16,10 +16,7 @@ $(document).ready(function(){
     } else if (result === 6) {
       $(".result").hide();
       $("#csharp").show();
-    } else if (result === 7) {
-      $(".result").hide();
-      $("#java").show();
-    } else if (result === 8) {
+    } else if (result >= 7 && result <= 8) {
       $(".result").hide();
       $("#java").show();
     } else if (result === 9) {
